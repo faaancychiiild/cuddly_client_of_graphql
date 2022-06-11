@@ -1,0 +1,31 @@
+.main {
+  color: #ff7a59;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.plusLogo {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100 !important;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #ff7a59;
+  cursor: pointer;
+  margin: 40px;
+}
+
+.form {
+  background-color: rgba(255, 251, 251, 0.48);
+  height: 80%;
+  width: 400px;
+  position: absolute;
+}
