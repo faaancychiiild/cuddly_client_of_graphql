@@ -1,0 +1,19 @@
+.header {
+  font-size: 18px;
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+  padding: 0 40px;
+}
+
+.menu-item {
+  margin: 0 25px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: #ff7a59;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  border-bottom: 1px outset #ff7a59;
+}
