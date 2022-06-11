@@ -17,3 +17,7 @@
 .menu-item:hover {
   border-bottom: 1px outset #ff7a59;
 }
+
+a {
+  text-decoration: none;
+}

@@ -3,15 +3,15 @@ import './header.css'
 const Header = () => {
   return (
     <main className="header">
-      <div className='menu-item'>
+      <a className='menu-item' href='/tech'>
         technologies
-      </div>
-      <div className='menu-item'>
+      </a>
+      <a className='menu-item' href='/work'>
         work
-      </div>
-      <div className='menu-item'>
+      </a>
+      <a className='menu-item'>
         about
-      </div>
+      </a>
     </main>
   )
 }
